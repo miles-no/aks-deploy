@@ -1,4 +1,4 @@
-Noova Cluster Deployment Image
+Azure AKS Cluster Deployment Image
 =======================================
 The image responsible for handling deployments to clusters running in Azure AKS
 

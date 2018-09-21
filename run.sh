@@ -24,7 +24,13 @@ echo "DOCKER_TAG: $DOCKER_TAG"
 echo "TENANT_ID: $TENANT_ID"
 echo "CLUSTER_NAME: $CLUSTER_NAME"
 echo "RESOURCE_GROUP: $RESOURCE_GROUP"
+echo "DEBUG: $DEBUG"
 echo
+
+if [ -n "$DEBUG" ] 
+then
+  set -x
+fi
 
 # Make sure we are in the root directory
 cd /
